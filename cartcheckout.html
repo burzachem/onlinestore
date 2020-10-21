@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Cart + Thankyou page</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./style2.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="cart-page">
+  <div class="cart-page-container">
+    <!--For cart page-->
+    <div class="cart-page-header">
+      <div class="cart-header-notice">
+        <span class="cart-header-icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+        <span class="cart-header-text red-text">Accounting Certificate</span>
+        <span class="cart-header-text">has been added to your cart</span>
+      </div>
+      <div class="cart-header-footer">
+        <a href="index.html" class="cart-header-cta" target="_blank">Continue Browsing</a>
+      </div>
+    </div>
+    <!--For thank you page-->
+    <div class="cart-page-header page-order-received">
+      <div class="cart-header-notice">
+        <span class="cart-header-icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+        <span class="cart-header-text">Thank you. Your order has been received.</span>
+      </div>
+      <div class="cart-order-received">
+        <div class="order-received-col">
+          <span class="">Order Number:</span>
+          <span class="bold-text">49143</span>
+        </div>
+        <div class="order-received-col received-col-mobile">
+          <span class="">Date:</span>
+          <span class="bold-text">April 24, 2018</span>
+        </div>
+        <div class="order-received-col">
+          <span class="">Total:</span>
+          <span class="bold-text">$100</span>
+        </div>
+        <div class="order-received-col">
+          <span class="">Payment Method:</span>
+          <span class="bold-text">Credit Card</span>
+        </div>
+      </div>
+    </div>
+    <!--For cart page and thank you page-->
+    <div class="cart-page-table">
+      <table class="cart-table-product">
+        <thead>
+          <tr class="cart-table-header">
+            <th class="cart-table-img">Provider</th>
+            <th class="cart-table-desktop cart-table-product-name">Product</th>
+            <th class="cart-table-desktop cart-table-payment">Payment Type</th>
+            <th class="cart-table-desktop cart-table-size">Start date</th>
+            <th class="cart-table-size right-text-mobile">Payment Today</th>
+            <th class="cart-table-desktop cart-table-small-size"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="cart-table-content">
+            <td class="cart-table-image-info"><img src="http://via.placeholder.com/350x150"></td>
+            <td class="bold-text red-text cart-table-desktop">Accounting Cerfiticate</td>
+            <td class="cart-table-desktop"><span class="bold-text">Pay Upfront</span>
+              <p>Total Course Fee with 10% Discount</p>
+            </td>
+            <td class="cart-table-desktop">
+              <form>
+                <input type="date" name="bday">
+              </form>
+            </td>
+            <td class="cart-table-desktop">$100</td>
+            <td class="cart-table-icon red-text right-text-mobile"><i class="fa fa-close"></i></td>
+          </tr>
+          <!--mobile-->
+          <tr class="cart-table-mobile">
+            <td class="red-text bold-text">Accounting Cerfiticate</td>
+            <td class="right-text-mobile">$100</td>
+          </tr>
+          <tr class="cart-table-mobile">
+            <td colspan="2"><span class="cart-table-mobile-title bold-text">Payment Type: </span><span>Pay Upfront</span></td>
+          </tr>
+          <tr class="cart-table-mobile cart-table-mobile-bottom">
+            <td colspan="2"><span class="cart-table-mobile-title bold-text">Start Date: </span><span><form>
+                <input type="date" name="bday">
+              </form></span></td>
+          </tr>
+          <tr class="cart-table-content cart-table-content-detail-payment">
+            <td class="cart-table-image-info"><img src="http://via.placeholder.com/350x150"></td>
+            <td class="cart-table-desktop red-text bold-text">Derivatives Adviser (Personal Advice)</td>
+            <td class="cart-table-desktop"><span class="bold-text">Payment Plan</span></td>
+            <td class="cart-table-desktop">Anytime</td>
+            <td class="cart-table-desktop">$100</td>
+            <td class="cart-table-icon red-text right-text-mobile"><i class="fa fa-close"></i></td>
+          </tr>
+          <!--mobile-->
+          <tr class="cart-table-mobile">
+            <td class="red-text bold-text">Accounting Cerfiticate</td>
+            <td class="right-text-mobile">$100</td>
+          </tr>
+          <tr class="cart-table-mobile">
+            <td colspan="2"><span class="cart-table-mobile-title bold-text">Payment Type: </span><span>Pay Upfront</span></td>
+          </tr>
+          <tr class="cart-table-mobile">
+            <td colspan="2"><span class="cart-table-mobile-title cart-table-mobile-title-bottom bold-text">Start Date: </span><span>Anytime</span></td>
+          </tr>
+          <tr class="cart-table-content cart-table-payment-content">
+            <td class="cart-table-payment-detail" colspan="6">
+              <div class="cart-table-plan-payment">
+                <div class="cart-plan-payment-container">
+                  <table>
+                    <tr>
+                      <th class="cart-table-desktop cart-table-img"></th>
+                      <th>Payment Plan Details</th>
+                      <th class="cart-table-desktop"></th>
+                      <th class="cart-table-desktop"></th>
+                      <th class="cart-table-desktop"></th>
+                    </tr>
+                    <tr>
+                      <td class="cart-table-desktop cart-table-image-info"></td>
+                      <td><span class="bold-text">Deposit Today: </span>$49</td>
+                      <td><span class="bold-text">Repayments of: </span>$49 x 32 Weeks</td>
+                      <td><span class="bold-text">Starting on: </span>Thursday, 26 April 2018</td>
+                      <td><span class="bold-text">Total Amount: </span>$1.568</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cart-block-right">
+      <div class="cart-page-discount">
+        <div class="cart-header-footer cart-footer-discount">
+          <input class="cart-page-input" placeholder="Discount Code" />
+          <a href="#" class="cart-header-cta cart-cta" target="_blank">Apply</a>
+        </div>
+      </div>
+      <div class="cart-table-bill">
+        <div class="bill-sub">Subtotal: $1.00</div>
+        <div class="bill-total bold-text">Subtotal: $1.00</div>
+      </div>
+      <div class="cart-header-footer">
+        <a href="checkout.html" class="cart-header-cta red-bg" target="_blank">Proceed to Checkout</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
